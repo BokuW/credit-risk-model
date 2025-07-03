@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.env
+.idea/  # For PyCharm or other IDEs
+
+# Data
+data/raw/  # Raw data is often too large or sensitive for Git
+data/processed/ # Processed data can be regenerated
+*.csv
+*.xlsx
+*.parquet
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+.mlflow/
+
+# Docker
+.dockerignore
+
+# Environment variables
+.env
+
+# Logs
+*.log
